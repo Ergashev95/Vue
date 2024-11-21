@@ -511,3 +511,22 @@ body {
     transform: scale(0);
 }
 /* SERIES GRID */
+
+/* SITE-FOOTER */
+.site-footer {
+    background:  linear-gradient(90deg, #FF8C30 0%, #9F4700 100%);
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+.app {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+.footer-desc {
+    color: var(--white);
+    font-family: var(--Comfortaa);
+    font-size: 18px;
+    font-weight: 700;
+}
+/* SITE-FOOTER */
