@@ -76,6 +76,17 @@ body {
 }
 
 
+::-webkit-scrollbar{
+   width: 10px;
+    background-color: var(--orange);
+}
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    height: 10px;
+    background-color: var(--dark-blue);
+}
+
+
 /* SITE-ADS */
 
 .site-ads {
