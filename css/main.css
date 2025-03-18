@@ -1,1 +1,84 @@
 @import url(./fonts.css);
+
+/* CUSTOM PROPS */
+
+:root {
+    --orange: #F18128;
+    --white: #fff;
+    --orange-dark: #ED8E00;
+    --blue-dark: #040D1F;
+    --Montserrat: "Montserrat";
+    --Roboto: "Roboto";
+    --Comfortaa: "Comfortaa";
+}
+
+/* GLOBAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* CONTAINER */
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin:  auto;
+}
+
+/* BTN */
+
+.btn {
+    max-width: 166px;
+    width: 100%;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-radius: 4px;
+    border: 1px solid #000;
+    background: var(--orange);
+    display: block;
+    text-align: center;
+    font-family: var(--Roboto);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 12px;
+    color: #000;
+    transition: .4s;
+}
+
+.btn:hover {
+    background-color: var(--blue-dark);
+    color: var(--white);
+}
+
+/* TITLE */
+
+.title {
+    color: var(--orange);
+    font-family: var(--Comfortaa);
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 54px;
+    text-transform: capitalize;
+    border-bottom: 2px solid var(--orange);
+    width: max-content;
+}
+
+/* BODY */
+
+body {
+    /* background-color: var(--blue-dark); */
+    font-family: var(--Montserrat);
+}
